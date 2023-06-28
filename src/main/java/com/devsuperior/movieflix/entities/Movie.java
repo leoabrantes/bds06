@@ -32,7 +32,7 @@ public class Movie implements Serializable {
 	private String synopsis;
 	
 	@ManyToOne
-	@JoinColumn(name = "genre_id")	
+	@JoinColumn(name = "genre_id")
 	private Genre genre;
 	
 	@OneToMany(mappedBy = "movie")
