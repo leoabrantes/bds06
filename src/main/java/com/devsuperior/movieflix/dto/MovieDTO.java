@@ -37,7 +37,7 @@ public class MovieDTO implements Serializable{
 		year = entity.getYear();
 		imgUrl = entity.getImgUrl();
 		synopsis = entity.getSynopsis();
-		genre = entity.getGenre();
+//		genre = entity.getGenre();
 	}
 
 	public Long getId() {
